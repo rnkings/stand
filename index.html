@@ -6,6 +6,7 @@
 </head>
 <body>
 
+
 <form id="lemonadeForm">
     <div>
         <label>How many days?
@@ -31,20 +32,24 @@
           <input id="costOfLemonade" type="number" value="">
         </label>
     </div>
-    <button type="button" onclick="simulate();">Open The Stand!</button>
+    <button type="button" onclick="tableCreate()">Open The Stand!</button>
 </div>
 </form>
+
+
+
 	
-<!-- PAGE CONTENT HERE -->
+<!-- PAGE CONTENT HERE  tableCreate('displayTable')*/;"-->
 
 
 </div>
+<div id="displayTable"></div>
 
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="https://cdn.rawgit.com/monkeecreate/jquery.simpleWeather/master/jquery.simpleWeather.min.js"></script>
-<script src="js/lemonadeStand.js"></script>
+<script src="lemonadeStand.js"></script>
 <script>
 $(document).ready(function() {
   $.simpleWeather({
